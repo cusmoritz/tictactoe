@@ -14,28 +14,18 @@ header {
     align-self: center;
 }
 
-#main {
+#main{
     grid-area: main;
     background-color: blue;
-
 }
 
-#gameBoard {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: blue;
-    height: 300px;
-    width: 300px;
+.gameboard {
+    display: flex;
 }
 
-#main div div {
-    background-color: yellow;
-    height: 90px;
-    width: 90px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+.cell {
+    width: 100px;
+    height: 100px;
+    border: dashed;
+    
 }
-
-
